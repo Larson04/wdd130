@@ -1,0 +1,16 @@
+/* the a is the child in the nav for each of the links*/
+a {
+    background-color: #85B5C8;
+    color: #EFF2F2;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align:center;
+}
+nav{
+    display: flex;
+    background: #709183;
+}
+.home_background{
+    background: lightgray;
+}
