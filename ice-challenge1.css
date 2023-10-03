@@ -1,0 +1,50 @@
+*{
+    /* border: 1px solid red; */
+}
+/* body{
+    background-color: pink;
+} */
+#content{
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: green; */
+}
+header{
+    background: #709183;
+    color:#EFF2F2;
+    width: 75%;
+    text-align: center;
+    margin:auto;
+    padding: 5px;
+}
+h1{
+    background-color: #85B5C8;
+    width: 50%;
+    margin: 10px auto;
+    padding: 5px;    
+}
+h1:hover{
+    text-align: center;
+    background-color: #EFF2F2;
+    color:black;
+    width: 50%;
+}
+h3{
+    text-align: center;
+}
+.section1{
+    text-align: left;
+    width: 400px;
+    margin: 10px auto;
+    padding: 5px;
+}
+img{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.section2{
+    width: 600px;
+    margin: 10px auto;
+    text-align: center;
+}
