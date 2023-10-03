@@ -1,4 +1,8 @@
 /* the a is the child in the nav for each of the links*/
+#content{
+    max-width: 1100px;
+    margin: 0 auto;
+}
 a {
     background-color: #85B5C8;
     color: #EFF2F2;
@@ -7,10 +11,40 @@ a {
     margin: 5px;
     text-align:center;
 }
+a:hover {
+    background-color: #EFF2F2;
+    color: darkgray;
+}
 nav{
     display: flex;
     background: #709183;
+    justify-content: center
+}
+h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+p{
+    /* text-align: center; */
+    width: 50%px;
+    margin: 10px auto;
+    padding: 5px;
 }
 .home_background{
     background: lightgray;
+}
+footer p {
+    width: 100%;
+    text-align: center;
+    background-color: #709183;
+    color: #EFF2F2;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align:center;
 }
