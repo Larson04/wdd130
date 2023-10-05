@@ -1,0 +1,83 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body{
+    background-color:white;
+}
+header{
+    background-color:#1A775F;
+}
+.logo{
+    width: 80px;
+}
+.icon{
+    width: 80px;
+}
+nav a{
+    text-align: center;
+    color:#EFF2F2;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color:#709183;
+    color: #EFF2F2;
+}
+.book{
+    background-color:#539DCA;
+    color:#EFF2F2;
+    text-decoration: none;
+}
+.book:hover{
+    background-color:#85B5C8;
+    color:#EFF2F2;
+}
+#hero-img{
+    width: 100%;
+}
+#hero-msg h1{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+.msg{
+    background-color:#709183;
+    color:#EFF2F2;
+}
+#background{
+    height: 725px;
+    background-color: #709183;
+}
+.join{
+    background-color: #539DCA;
+    color:#EFF2F2;
+    text-decoration: none;
+}
+.join:hover{
+    background-color: #85B5C8;
+    color:#EFF2F2;
+}
+footer{
+    background-color: #1A775F;
+    color:#EFF2F2;
+}
+footer a{
+    color:#EFF2F2;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#EFF2F2;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
