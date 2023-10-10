@@ -1,0 +1,19 @@
+.header-thing{
+    width: 100%;
+}
+body{
+    background-color: gray;
+}
+#bottom{
+    background-color: gray;
+    max-width: 1250px;
+    text-align: center;
+}
+img.bottom{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #5f5f5f;
+    margin: 60px;
+}
