@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Love+Ya+Like+A+Sister&family=Montserrat:wght@300&display=swap');
 
 #content{
     max-width: 1600px;
@@ -6,12 +6,29 @@
 }
 body{
     background-color:white;
+    font-family: Montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
+}
+h1,h2,h3,h4{
+    font-family: 'Love Ya Like A Sister', 'Bradley Hand', serif;
+}
+h2{
+    margin: 0;
 }
 header{
     background-color:#1A775F;
 }
 .logo{
     width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
 }
 .icon{
     width: 80px;
@@ -20,19 +37,36 @@ nav a{
     text-align: center;
     color:#EFF2F2;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color:#709183;
     color: #EFF2F2;
 }
-.book{
+.book, .join{
     background-color:#539DCA;
     color:#EFF2F2;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.book:hover{
+.book:hover, .join:hover{
     background-color:#85B5C8;
     color:#EFF2F2;
+}
+main section img{
+    box-sizing: border-box;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #1A775F;
+}
+.icon{
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -52,23 +86,22 @@ main{
 .msg{
     background-color:#709183;
     color:#EFF2F2;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 #background{
     height: 725px;
     background-color: #709183;
 }
-.join{
-    background-color: #539DCA;
-    color:#EFF2F2;
-    text-decoration: none;
-}
-.join:hover{
-    background-color: #85B5C8;
-    color:#EFF2F2;
-}
 footer{
     background-color: #1A775F;
     color:#EFF2F2;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color:#EFF2F2;
@@ -82,4 +115,7 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
 }
