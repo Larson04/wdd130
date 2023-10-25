@@ -34,4 +34,5 @@ h3{
     grid-row: 1/2;
     justify-self:center;
     align-self: last baseline;
+    letter-spacing: 5px;
 }
