@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/rsz_chb-logo.png" alt="Camp Half-Blood Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="page2.html">Activities</a>
+            <a href="registration.html">Registration</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="summer">
+            <form action="#" method="register"> 
+                <ul>
+                    <h2>Summer Session</h2>
+                    <h4>Child Information</h4>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="child_name" required />
+                    </li>
+                    <li>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="child_address" required />
+                    </li>
+                    <li>
+                        <label for="birth_date">Birth Day:</label>
+                        <input type="date" id="date" name="birth_date" required />
+                    </li>
+                    <li>
+                        <label for="sex">Sex:</label>
+                        <input type="text" id="sex" name="sex" required />
+                    </li>
+                    <li>
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" required/>
+                    </li>
+                    <h4>Parent/Gaurdian Information</h4>
+                    <li>
+                        <label for="authroized">Authorized to pick-up:</label>
+                        <input type="checkbox" id="pick_up" name="pick_up" required/>
+                    </li>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="parent_name" required />
+                    </li>
+                    <li>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="parent_address" required />
+                    </li>
+                    <li>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="parent_city" required />
+                    </li>
+                    <li>
+                        <label for="state">State:</label>
+                        <input type="text" id="state" name="parent_state" required />
+                    </li>
+                    <li>
+                        <label for="zip">Zip:</label>
+                        <input type="number" id="zip" name="parent_zip" required/>
+                    </li>
+                    <li>
+                        <lable for="home">Home:</lable>
+                        <input type="tel" id="home" name="home" required/>
+                    </li>
+                    <li>
+                        <label for="cell">Cell:</label>
+                        <input type="tel" id="cell" name="cell" required/>
+                    </li>
+                    <li>
+                        <label for="work">Work:</label>
+                        <input type="tel" id="work" name="work" required/>
+                    </li>
+                    <h4>Additional Required Emergency Contact/Authorized Pick-Up:</h4>
+                    <p>Please list individuals allowed to pick-up your child. Photo ID will be required.</p>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="emergency_name" required />
+                    </li>
+                    <li>
+                        <label for="relation">Relationship to Child:</label>
+                        <input type="text" id="relation" name="emergency_realtion" required />
+                    </li>
+                    <li>
+                        <label for="phone">Phone #</label>
+                        <input type="tel" id="phone" name="phone" required/>
+                    </li>
+                    <li>
+                        <label for="phone2">Second Phone #</label>
+                        <input type="tel" id="phone2" name="phone2" required/>
+                    </li>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="emergency_name" required />
+                    </li>
+                    <li>
+                        <label for="relation">Relationship to Child:</label>
+                        <input type="text" id="relation" name="emergency_realtion" required />
+                    </li>
+                    <li>
+                        <label for="phone">Phone #</label>
+                        <input type="tel" id="phone" name="phone" required/>
+                    </li>
+                    <li>
+                        <label for="phone2">Second Phone #</label>
+                        <input type="tel" id="phone2" name="phone2" required/>
+                    </li>
+                    <h4>Additional Information</h4>
+                    <h5>Allergies:</h5>
+                    <li>
+                        <label for="hay">Hay Fever:</label>
+                        <input type="checkbox" id="hay" name="hay" />
+                        <label for="bug">Insect Stings:</label>
+                        <input type="checkbox" id="bug" name="bug" />
+                        <label for="pen">Penicillin:</label>
+                        <input type="checkbox" id="pen" name="pen" />
+                        <label for="asthma">Asthma:</label>
+                        <input type="checkbox" id="asthma" name="asthma" />
+                        <label for="food">Foods:</label>
+                        <input type="checkbox" id="food" name="food" />
+                    </li>
+                    <li>
+                        <label for="other">Other:</label>
+                        <textarea id="other" name="other"></textarea>
+                    </li>
+                    <h5>Physician</h5>
+                    <li>
+                        <label for="phys">Physician:</label>
+                        <input type="text" id="phys" name="phys"/>
+                    </li>
+                    <li>
+                        <label for="phone">Phone #</label>
+                        <input type="tel" id="phone2" name="phone2" required/>
+                    </li>
+                    <li>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="phys_address" required />
+                    </li>
+                    <li>
+                        <label for="hospital">Preferred Hospital</label>
+                        <input type="text" id="hopsital" name="pref_hosp"/>
+                    </li>
+                    <h5>Insurance Information</h5>
+                    <li>
+                        <label for="ins_comp">Insurance Company</label>
+                        <input type="text" id="ins_comp" name="ins_comp"/>
+                    </li>
+                    <li>
+                        <label for="policy">Policy/Group #</label>
+                        <input type="text" id="policy" name="policy" />
+                    </li>
+                    <li class="button">
+                        <button type="submit">Submit Registration</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="fall">
+            <form action="#" method="register"> 
+                <ul>
+                    <h2>Fall Session</h2>
+                    <h4>Child Information</h4>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="child_name" required />
+                    </li>
+                    <li>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="child_address" required />
+                    </li>
+                    <li>
+                        <label for="birth_date">Birth Day:</label>
+                        <input type="date" id="date" name="birth_date" required />
+                    </li>
+                    <li>
+                        <label for="sex">Sex:</label>
+                        <input type="text" id="sex" name="sex" required />
+                    </li>
+                    <li>
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" required/>
+                    </li>
+                    <h4>Parent/Gaurdian Information</h4>
+                    <li>
+                        <label for="authroized">Authorized to pick-up:</label>
+                        <input type="checkbox" id="pick_up" name="pick_up" required/>
+                    </li>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="parent_name" required />
+                    </li>
+                    <li>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="parent_address" required />
+                    </li>
+                    <li>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="parent_city" required />
+                    </li>
+                    <li>
+                        <label for="state">State:</label>
+                        <input type="text" id="state" name="parent_state" required />
+                    </li>
+                    <li>
+                        <label for="zip">Zip:</label>
+                        <input type="number" id="zip" name="parent_zip" required/>
+                    </li>
+                    <li>
+                        <lable for="home">Home:</lable>
+                        <input type="tel" id="home" name="home" required/>
+                    </li>
+                    <li>
+                        <label for="cell">Cell:</label>
+                        <input type="tel" id="cell" name="cell" required/>
+                    </li>
+                    <li>
+                        <label for="work">Work:</label>
+                        <input type="tel" id="work" name="work" required/>
+                    </li>
+                    <h4>Additional Required Emergency Contact/Authorized Pick-Up:</h4>
+                    <p>Please list individuals allowed to pick-up your child. Photo ID will be required.</p>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="emergency_name" required />
+                    </li>
+                    <li>
+                        <label for="relation">Relationship to Child:</label>
+                        <input type="text" id="relation" name="emergency_realtion" required />
+                    </li>
+                    <li>
+                        <label for="phone">Phone #</label>
+                        <input type="tel" id="phone" name="phone" required/>
+                    </li>
+                    <li>
+                        <label for="phone2">Second Phone #</label>
+                        <input type="tel" id="phone2" name="phone2" required/>
+                    </li>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="emergency_name" required />
+                    </li>
+                    <li>
+                        <label for="relation">Relationship to Child:</label>
+                        <input type="text" id="relation" name="emergency_realtion" required />
+                    </li>
+                    <li>
+                        <label for="phone">Phone #</label>
+                        <input type="tel" id="phone" name="phone" required/>
+                    </li>
+                    <li>
+                        <label for="phone2">Second Phone #</label>
+                        <input type="tel" id="phone2" name="phone2" required/>
+                    </li>
+                    <h4>Additional Information</h4>
+                    <h5>Allergies:</h5>
+                    <li>
+                        <label for="hay">Hay Fever:</label>
+                        <input type="checkbox" id="hay" name="hay" />
+                        <label for="bug">Insect Stings:</label>
+                        <input type="checkbox" id="bug" name="bug" />
+                        <label for="pen">Penicillin:</label>
+                        <input type="checkbox" id="pen" name="pen" />
+                        <label for="asthma">Asthma:</label>
+                        <input type="checkbox" id="asthma" name="asthma" />
+                        <label for="food">Foods:</label>
+                        <input type="checkbox" id="food" name="food" />
+                    </li>
+                    <li>
+                        <label for="other">Other:</label>
+                        <textarea id="other" name="other"></textarea>
+                    </li>
+                    <h5>Physician</h5>
+                    <li>
+                        <label for="phys">Physician:</label>
+                        <input type="text" id="phys" name="phys"/>
+                    </li>
+                    <li>
+                        <label for="phone">Phone #</label>
+                        <input type="tel" id="phone2" name="phone2" required/>
+                    </li>
+                    <li>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="phys_address" required />
+                    </li>
+                    <li>
+                        <label for="hospital">Preferred Hospital</label>
+                        <input type="text" id="hopsital" name="pref_hosp"/>
+                    </li>
+                    <h5>Insurance Information</h5>
+                    <li>
+                        <label for="ins_comp">Insurance Company</label>
+                        <input type="text" id="ins_comp" name="ins_comp"/>
+                    </li>
+                    <li>
+                        <label for="policy">Policy/Group #</label>
+                        <input type="text" id="policy" name="policy" />
+                    </li>
+                    <li class="button">
+                        <button type="submit">Submit Registration</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="winter">
+            <form action="#" method="register"> 
+                <ul>
+                    <h2>Winter Session</h2>
+                    <h4>Child Information</h4>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="child_name" required />
+                    </li>
+                    <li>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="child_address" required />
+                    </li>
+                    <li>
+                        <label for="birth_date">Birth Day:</label>
+                        <input type="date" id="date" name="birth_date" required />
+                    </li>
+                    <li>
+                        <label for="sex">Sex:</label>
+                        <input type="text" id="sex" name="sex" required />
+                    </li>
+                    <li>
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" required/>
+                    </li>
+                    <h4>Parent/Gaurdian Information</h4>
+                    <li>
+                        <label for="authroized">Authorized to pick-up:</label>
+                        <input type="checkbox" id="pick_up" name="pick_up" required/>
+                    </li>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="parent_name" required />
+                    </li>
+                    <li>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="parent_address" required />
+                    </li>
+                    <li>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="parent_city" required />
+                    </li>
+                    <li>
+                        <label for="state">State:</label>
+                        <input type="text" id="state" name="parent_state" required />
+                    </li>
+                    <li>
+                        <label for="zip">Zip:</label>
+                        <input type="number" id="zip" name="parent_zip" required/>
+                    </li>
+                    <li>
+                        <lable for="home">Home:</lable>
+                        <input type="tel" id="home" name="home" required/>
+                    </li>
+                    <li>
+                        <label for="cell">Cell:</label>
+                        <input type="tel" id="cell" name="cell" required/>
+                    </li>
+                    <li>
+                        <label for="work">Work:</label>
+                        <input type="tel" id="work" name="work" required/>
+                    </li>
+                    <h4>Additional Required Emergency Contact/Authorized Pick-Up:</h4>
+                    <p>Please list individuals allowed to pick-up your child. Photo ID will be required.</p>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="emergency_name" required />
+                    </li>
+                    <li>
+                        <label for="relation">Relationship to Child:</label>
+                        <input type="text" id="relation" name="emergency_realtion" required />
+                    </li>
+                    <li>
+                        <label for="phone">Phone #</label>
+                        <input type="tel" id="phone" name="phone" required/>
+                    </li>
+                    <li>
+                        <label for="phone2">Second Phone #</label>
+                        <input type="tel" id="phone2" name="phone2" required/>
+                    </li>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="emergency_name" required />
+                    </li>
+                    <li>
+                        <label for="relation">Relationship to Child:</label>
+                        <input type="text" id="relation" name="emergency_realtion" required />
+                    </li>
+                    <li>
+                        <label for="phone">Phone #</label>
+                        <input type="tel" id="phone" name="phone" required/>
+                    </li>
+                    <li>
+                        <label for="phone2">Second Phone #</label>
+                        <input type="tel" id="phone2" name="phone2" required/>
+                    </li>
+                    <h4>Additional Information</h4>
+                    <h5>Allergies:</h5>
+                    <li>
+                        <label for="hay">Hay Fever:</label>
+                        <input type="checkbox" id="hay" name="hay" />
+                        <label for="bug">Insect Stings:</label>
+                        <input type="checkbox" id="bug" name="bug" />
+                        <label for="pen">Penicillin:</label>
+                        <input type="checkbox" id="pen" name="pen" />
+                        <label for="asthma">Asthma:</label>
+                        <input type="checkbox" id="asthma" name="asthma" />
+                        <label for="food">Foods:</label>
+                        <input type="checkbox" id="food" name="food" />
+                    </li>
+                    <li>
+                        <label for="other">Other:</label>
+                        <textarea id="other" name="other"></textarea>
+                    </li>
+                    <h5>Physician</h5>
+                    <li>
+                        <label for="phys">Physician:</label>
+                        <input type="text" id="phys" name="phys"/>
+                    </li>
+                    <li>
+                        <label for="phone">Phone #</label>
+                        <input type="tel" id="phone2" name="phone2" required/>
+                    </li>
+                    <li>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="phys_address" required />
+                    </li>
+                    <li>
+                        <label for="hospital">Preferred Hospital</label>
+                        <input type="text" id="hopsital" name="pref_hosp"/>
+                    </li>
+                    <h5>Insurance Information</h5>
+                    <li>
+                        <label for="ins_comp">Insurance Company</label>
+                        <input type="text" id="ins_comp" name="ins_comp"/>
+                    </li>
+                    <li>
+                        <label for="policy">Policy/Group #</label>
+                        <input type="text" id="policy" name="policy" />
+                    </li>
+                    <li class="button">
+                        <button type="submit">Submit Registration</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="spring">
+            <form action="#" method="register"> 
+                <ul>
+                    <h2>Spring Session</h2>
+                    <h4>Child Information</h4>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="child_name" required />
+                    </li>
+                    <li>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="child_address" required />
+                    </li>
+                    <li>
+                        <label for="birth_date">Birth Day:</label>
+                        <input type="date" id="date" name="birth_date" required />
+                    </li>
+                    <li>
+                        <label for="sex">Sex:</label>
+                        <input type="text" id="sex" name="sex" required />
+                    </li>
+                    <li>
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" name="age" required/>
+                    </li>
+                    <h4>Parent/Gaurdian Information</h4>
+                    <li>
+                        <label for="authroized">Authorized to pick-up:</label>
+                        <input type="checkbox" id="pick_up" name="pick_up" required/>
+                    </li>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="parent_name" required />
+                    </li>
+                    <li>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="parent_address" required />
+                    </li>
+                    <li>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="parent_city" required />
+                    </li>
+                    <li>
+                        <label for="state">State:</label>
+                        <input type="text" id="state" name="parent_state" required />
+                    </li>
+                    <li>
+                        <label for="zip">Zip:</label>
+                        <input type="number" id="zip" name="parent_zip" required/>
+                    </li>
+                    <li>
+                        <lable for="home">Home:</lable>
+                        <input type="tel" id="home" name="home" required/>
+                    </li>
+                    <li>
+                        <label for="cell">Cell:</label>
+                        <input type="tel" id="cell" name="cell" required/>
+                    </li>
+                    <li>
+                        <label for="work">Work:</label>
+                        <input type="tel" id="work" name="work" required/>
+                    </li>
+                    <h4>Additional Required Emergency Contact/Authorized Pick-Up:</h4>
+                    <p>Please list individuals allowed to pick-up your child. Photo ID will be required.</p>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="emergency_name" required />
+                    </li>
+                    <li>
+                        <label for="relation">Relationship to Child:</label>
+                        <input type="text" id="relation" name="emergency_realtion" required />
+                    </li>
+                    <li>
+                        <label for="phone">Phone #</label>
+                        <input type="tel" id="phone" name="phone" required/>
+                    </li>
+                    <li>
+                        <label for="phone2">Second Phone #</label>
+                        <input type="tel" id="phone2" name="phone2" required/>
+                    </li>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="emergency_name" required />
+                    </li>
+                    <li>
+                        <label for="relation">Relationship to Child:</label>
+                        <input type="text" id="relation" name="emergency_realtion" required />
+                    </li>
+                    <li>
+                        <label for="phone">Phone #</label>
+                        <input type="tel" id="phone" name="phone" required/>
+                    </li>
+                    <li>
+                        <label for="phone2">Second Phone #</label>
+                        <input type="tel" id="phone2" name="phone2" required/>
+                    </li>
+                    <h4>Additional Information</h4>
+                    <h5>Allergies:</h5>
+                    <li>
+                        <label for="hay">Hay Fever:</label>
+                        <input type="checkbox" id="hay" name="hay" />
+                        <label for="bug">Insect Stings:</label>
+                        <input type="checkbox" id="bug" name="bug" />
+                        <label for="pen">Penicillin:</label>
+                        <input type="checkbox" id="pen" name="pen" />
+                        <label for="asthma">Asthma:</label>
+                        <input type="checkbox" id="asthma" name="asthma" />
+                        <label for="food">Foods:</label>
+                        <input type="checkbox" id="food" name="food" />
+                    </li>
+                    <li>
+                        <label for="other">Other:</label>
+                        <textarea id="other" name="other"></textarea>
+                    </li>
+                    <h5>Physician</h5>
+                    <li>
+                        <label for="phys">Physician:</label>
+                        <input type="text" id="phys" name="phys"/>
+                    </li>
+                    <li>
+                        <label for="phone">Phone #</label>
+                        <input type="tel" id="phone2" name="phone2" required/>
+                    </li>
+                    <li>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="phys_address" required />
+                    </li>
+                    <li>
+                        <label for="hospital">Preferred Hospital</label>
+                        <input type="text" id="hopsital" name="pref_hosp"/>
+                    </li>
+                    <h5>Insurance Information</h5>
+                    <li>
+                        <label for="ins_comp">Insurance Company</label>
+                        <input type="text" id="ins_comp" name="ins_comp"/>
+                    </li>
+                    <li>
+                        <label for="policy">Policy/Group #</label>
+                        <input type="text" id="policy" name="policy" />
+                    </li>
+                    <li class="button">
+                        <button type="submit">Submit Registration</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Camp Half-Blood &copy; 2023 - Ruby Larson</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank"> 
+                <img src="images/facebook.png" alt="facebook icon">    
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter logo">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram logo">
+            </a>
+        </div>
+    </footer>
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('registration');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.parent_name.value +'! Thank you for registering at Camp Half-Blood. We are so excited for you to join us!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+</html>
