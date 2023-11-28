@@ -1,9 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:wght@300&family=Rock+Salt&family=Special+Elite&display=swap');
 
-/* *{
+*{
     border: 1px solid red;
-} */
+}
 .content{
     max-width: 1600px;
     margin: 0 auto;
@@ -26,7 +26,7 @@ header{
     grid-template-columns: 150px auto;
 }
 .logo{
-    width: 80px;
+    width: 100%;
 }
 #logo_link{
     padding-top: 5px;
@@ -55,7 +55,7 @@ p{
     padding: 5px 8px;
 }
 .disclaimer{
-    font-size: .65em;
+    font-size: .85em;
     
 }
 .home-banner{
@@ -181,6 +181,22 @@ img{
     grid-column: 2/4;
     grid-row: 6/7;
 }
+
+/* activities page */
+.page-two{
+    max-width: 1600px;
+    display: grid; 
+    grid-template-columns: repeat(10, 1fr);
+} 
+
+.page-two .camp{
+    grid-column: 5/7;
+    width: 100%;
+    grid-row: 1/2;
+    border-radius: 50%;
+    
+}
+
 
 footer{
     background-color: #FF6523;
