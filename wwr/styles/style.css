@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Love+Ya+Like+A+Sister&family=Montserrat:wght@300&display=swap');
+/* *{
+    border: 1px solid red;
+} */
 
 #content{
     max-width: 1600px;
@@ -164,7 +167,11 @@ main section img{
 #river-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    gap: 50px;
+    /* row-gap: 50px; */
+}
+.h1{
+    text-align: center;
+    grid-column: 5/7;
 }
 .raft64{
     width: 100%;
@@ -253,7 +260,7 @@ footer{
     background-color: #1A775F;
     color:#EFF2F2;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 125px;
     display: flex;
     justify-content: space-around;
     align-items: center;
