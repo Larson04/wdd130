@@ -362,13 +362,17 @@ img{
 form {
     /* Center the form on the page */
     margin: 200px auto;
-    width: 600px;
+    width: 655px;
     /* Form outline */
     padding: 1em;
-    border: 1px solid #FF6523;
+    border: 1px solid #1982C4;
     border-radius: 1em;
+    background-color: #1982C4;
+    color:#FEE9AE;
   }
-  
+  form h2, h4, h5{
+    color:#2E3532;
+  }
   ul {
     list-style: none;
     padding: 0;
@@ -413,6 +417,17 @@ form {
     /* Provide space to type some text */
     height: 5em;
   }
+  input[type="checkbox" ] {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+  }
+ /* label.home{
+    display: inline-block;
+    width: 125px;
+    text-align: right;
+ } */
+
 
   .button {
     /* Align buttons with the text fields */
