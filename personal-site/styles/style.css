@@ -186,10 +186,10 @@ img{
 /* activities page */
 #page-two{
     max-width: 1600px;
-    display: grid; 
+    display: grid;  
     grid-template-columns: repeat(10, 1fr);
     text-align: center;
-    justify-content: center;
+    margin: 0 auto;
 } 
 
 .camp{
